@@ -165,7 +165,7 @@ public class TelaPrincipal extends JFrame {
 		lblM01_ponte.setFont(new Font("Arial", Font.BOLD, 15));
 		lblM01_ponte.setBounds(151, 50, 61, 14);
 		panel_1.add(lblM01_ponte);
-		comboBoxM01Ponte.setBounds(249, 48, 46, 20);
+		comboBoxM01Ponte.setBounds(249, 48, 62, 20);
 		panel_1.add(comboBoxM01Ponte);
 		
 		comboBoxM01Ponte.setModel(new DefaultComboBoxModel(new String[] {"", "Sim", "N\u00E3o"}));
@@ -175,7 +175,7 @@ public class TelaPrincipal extends JFrame {
 		lblM01Bandeira1.setFont(new Font("Arial", Font.BOLD, 15));
 		lblM01Bandeira1.setBounds(145, 79, 103, 20);
 		panel_1.add(lblM01Bandeira1);
-		comboBoxM01B1.setBounds(249, 79, 46, 20);
+		comboBoxM01B1.setBounds(249, 79, 62, 20);
 		panel_1.add(comboBoxM01B1);
 		
 		
@@ -185,22 +185,22 @@ public class TelaPrincipal extends JFrame {
 		lblM01Bandeira2.setFont(new Font("Arial", Font.BOLD, 15));
 		lblM01Bandeira2.setBounds(155, 113, 83, 14);
 		panel_1.add(lblM01Bandeira2);
-		comboBoxM01B2.setBounds(249, 110, 46, 20);
+		comboBoxM01B2.setBounds(249, 110, 62, 20);
 		panel_1.add(comboBoxM01B2);
 		
 		
 		comboBoxM01B2.setModel(new DefaultComboBoxModel(new String[] {"", "Sim", "N\u00E3o"}));
-		comboBoxAbaixado.setBounds(249, 231, 46, 20);
+		comboBoxAbaixado.setBounds(249, 231, 62, 20);
 		panel_1.add(comboBoxAbaixado);
 		
 		
 		comboBoxAbaixado.setModel(new DefaultComboBoxModel(new String[] {"", "Sim", "N\u00E3o"}));
-		comboBoxApoiado.setBounds(249, 262, 46, 20);
+		comboBoxApoiado.setBounds(249, 262, 62, 20);
 		panel_1.add(comboBoxApoiado);
 		
 		
 		comboBoxApoiado.setModel(new DefaultComboBoxModel(new String[] {"", "Sim", "N\u00E3o"}));
-		comboBoxCirculo.setBounds(249, 293, 46, 20);
+		comboBoxCirculo.setBounds(249, 293, 62, 20);
 		panel_1.add(comboBoxCirculo);
 		
 		
@@ -259,7 +259,7 @@ public class TelaPrincipal extends JFrame {
 		lblEixo.setFont(new Font("Arial", Font.BOLD, 15));
 		lblEixo.setBounds(129, 391, 83, 14);
 		panel_1.add(lblEixo);
-		comboBoxM03.setBounds(249, 389, 46, 20);
+		comboBoxM03.setBounds(249, 389, 62, 20);
 		panel_1.add(comboBoxM03);
 		
 		
@@ -281,7 +281,7 @@ public class TelaPrincipal extends JFrame {
 		lblGalho.setFont(new Font("Arial", Font.BOLD, 14));
 		lblGalho.setBounds(129, 527, 72, 14);
 		panel_1.add(lblGalho);
-		comboBoxM04.setBounds(249, 525, 46, 20);
+		comboBoxM04.setBounds(249, 525, 62, 20);
 		panel_1.add(comboBoxM04);
 		
 		
@@ -377,12 +377,12 @@ public class TelaPrincipal extends JFrame {
 		lblQTDP.setFont(new Font("Arial", Font.BOLD, 14));
 		lblQTDP.setBounds(238, 70, 46, 14);
 		panel_6.add(lblQTDP);
-		comboBoxQtdGrande.setBounds(129, 95, 46, 20);
+		comboBoxQtdGrande.setBounds(129, 95, 62, 20);
 		panel_6.add(comboBoxQtdGrande);
 		
 		
 		comboBoxQtdGrande.setModel(new DefaultComboBoxModel(new String[] {"", "1", "2", "3"}));
-		comboBoxQtdPequeno.setBounds(232, 95, 46, 20);
+		comboBoxQtdPequeno.setBounds(232, 95, 62, 20);
 		panel_6.add(comboBoxQtdPequeno);
 		
 		
@@ -392,7 +392,7 @@ public class TelaPrincipal extends JFrame {
 		label_7.setIcon(new ImageIcon(TelaPrincipal.class.getResource("/Imagens/Missao 6 - Engarrafamento (FLL).JPG")));
 		label_7.setBounds(10, 216, 103, 117);
 		panel_6.add(label_7);
-		comboBoxM06.setBounds(136, 252, 46, 20);
+		comboBoxM06.setBounds(136, 252, 62, 20);
 		panel_6.add(comboBoxM06);
 		
 		
@@ -402,7 +402,7 @@ public class TelaPrincipal extends JFrame {
 		label_8.setIcon(new ImageIcon(TelaPrincipal.class.getResource("/Imagens/Missao 7 - Balan\u00E7o (FLL).JPG")));
 		label_8.setBounds(10, 368, 83, 101);
 		panel_6.add(label_8);
-		comboBoxM07.setBounds(113, 397, 46, 20);
+		comboBoxM07.setBounds(103, 397, 62, 20);
 		panel_6.add(comboBoxM07);
 		
 		
@@ -412,7 +412,7 @@ public class TelaPrincipal extends JFrame {
 		label_9.setIcon(new ImageIcon(TelaPrincipal.class.getResource("/Imagens/Missao 8 - Elevador (FLL).JPG")));
 		label_9.setBounds(178, 368, 83, 100);
 		panel_6.add(label_9);
-		comboBoxM08.setBounds(265, 397, 46, 20);
+		comboBoxM08.setBounds(254, 397, 62, 20);
 		panel_6.add(comboBoxM08);
 		
 		
@@ -521,7 +521,7 @@ public class TelaPrincipal extends JFrame {
 		JLabel label_28 = new JLabel("");
 		label_28.setBounds(10, 505, 83, 100);
 		panel_11.add(label_28);
-		comboBoxM10.setBounds(148, 84, 46, 20);
+		comboBoxM10.setBounds(148, 84, 62, 20);
 		panel_11.add(comboBoxM10);
 		
 		
@@ -551,7 +551,7 @@ public class TelaPrincipal extends JFrame {
 		textFieldCorDiferente.setBounds(256, 435, 57, 20);
 		panel_11.add(textFieldCorDiferente);
 		textFieldCorDiferente.setColumns(10);
-		comboBoxM11.setBounds(148, 250, 46, 20);
+		comboBoxM11.setBounds(148, 250, 62, 20);
 		panel_11.add(comboBoxM11);
 		
 		
